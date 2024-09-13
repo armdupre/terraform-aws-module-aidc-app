@@ -5,7 +5,7 @@ variable "AmiName" {
 }
 
 variable "AmiOwner" {
-	default = "099720109477"
+	default = "679593333241"
 	description = "Owner of AMI used for deploying instances"
 	type = string
 }
