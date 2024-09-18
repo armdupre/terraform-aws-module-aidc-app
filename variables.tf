@@ -63,6 +63,12 @@ variable "SleepDelay" {
 	type = string
 }
 
+variable "SshKeyName" {
+	default = null
+	description = "Name of an existing EC2 KeyPair to enable SSH access"
+	type = string
+}
+
 variable "Tag" {
 	default = "aidc"
 	description = "App ID tag of application using the deployment"
